@@ -1,0 +1,277 @@
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "es"
+title = "Miguel Lopez Ariza"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Miguel Lopez Ariza"
+        tagline = "Full Stack Developer"
+        avatar = "profile.80c39f0b.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Barranquilla - Colombia"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:3015575931"
+        text = "301 557 5931"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:lopezarizamiguel@gmail.com"
+        text = "lopezarizamiguel@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://miguellopezariza.com"
+        text = "https://miguellopezariza.com"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "PHP & Laravel"
+        [[params.skills.list.items]]
+        details = "Javascript"
+        [[params.skills.list.items]]
+        details = "Angular & Ionic"
+        [[params.skills.list.items]]
+        details = "HTML5 & CSS"
+        [[params.skills.list.items]]
+        details = ".Net & Xamarin"
+
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Ing. de Sistemas"
+        university = "Fundación Universitaria San Martín"
+        dates = "2010 - 2012"
+        [[params.education.list]]
+        degree = "Ing. De Sistemas y Computación"
+        university = "Corporación Universitaria Latinoamericana"
+        dates = "2018 - Actual"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Español"
+        level = "Nativo"
+        [[params.languages.list]]
+        name = "Ingles"
+        level = "Tecnico"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Astronomía"
+        [[params.interests.list]]
+        name = "Política"
+        [[params.interests.list]]
+        name = "Electrónica digital"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Hola, soy un apasionado por la programación en general, desde adolescente inicie un proceso de auto aprendizaje y día a día enriquezco mis conocimientos con nuevas herramientas. mis inicio en este camino se remontan al año 2003 con una computadora muy básica en comparación con las actuales y un viejo libro de segunda mano de Turbo Pascal, par de años después inicie mi labor con Delphi 5 y desde entonces no e parado de programar, en ocasiones por hobbies y otras por trabajo."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Desarrollador Full Stack"
+        dates = "2018 - Actual"
+        company = "Soft-G.Net"
+        details = "Programador full stack de modulos para la gestión de transporte de compañias norteamericanas."
+        
+
+        [[params.experience.list]]
+        title = "Desarrollador - CEO"
+        dates = "2015 - 2018"
+        company = "Grafico App"
+        details = "Programación de módulos administrativos utilizando PHP, Bootstrap3, CSS3, MySQL y App Moviles en Xamarin y JQuery Mobile."
+        
+
+        [[params.experience.list]]
+        title = "Desarrollador"
+        dates = "2014 - 2015"
+        company = "Explain System & Solutions"
+        details = "Programación de módulos administrativos utilizando PHP, Bootstrap3, CSS3, MySQL y App Moviles en JQuery Mobile."
+
+        [[params.experience.list]]
+        title = "Desarrollador Desktop"
+        dates = "2003 - 2004"
+        company = "Facon Construcciones"
+        details = "Desarrollo de un aplicativo para la gestión de informes médicos en Borlan Denphi 5."
+
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "My Tienda"
+        tagline = "Aplicativo web y móvil que permite la gestión de pedidos en negocios de barrios."
+
+        [[params.projects.list]]
+        title = "PATI"
+        tagline = "Aplicativo que implementa un canal de comunicación directo entre los profesores, administrativos, padres y estudiantes de instituciones educativas."
+
+        [[params.projects.list]]
+        title = "TAScheduler"
+        tagline = "Aplicativo para la gestión de ruta de busces públicos en Miami."
+
+        [[params.projects.list]]
+        title = "Trip2"
+        tagline = "Aplicativo para la gestión de citas medicas y call center."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/parrotsoft"
+        title = "parrotsoft"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/mlopezariza"
+        title = "mlopezariza"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/miguelopeza"
+        title = "@miguelopeza"
+
+    [params.footer]
+        copyright = ""
+
+
+
+
+
