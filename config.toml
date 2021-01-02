@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "http://example.org/"
+baseURL = "https://parrotsoft.github.io/cv_miguel_lopez_ariza_hugo/"
 languageCode = "es"
 title = "Miguel Lopez Ariza"
 theme = "hugo-devresume-theme"
