@@ -4,7 +4,7 @@ baseURL = "https://parrotsoft.github.io/cv_miguel_lopez_ariza_hugo/"
 languageCode = "es"
 title = "Miguel Lopez Ariza"
 theme = "hugo-devresume-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "G-BHYMJ90XJ7"
 publishDir = "docs"
 
 
