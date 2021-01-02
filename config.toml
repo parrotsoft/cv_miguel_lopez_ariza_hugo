@@ -5,6 +5,7 @@ languageCode = "es"
 title = "Miguel Lopez Ariza"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
+publishDir = "docs"
 
 
 
