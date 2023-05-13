@@ -169,8 +169,14 @@ publishDir = "docs"
         enable = true
 
         [[params.experience.list]]
+        title = "Full Stack Development Sr Specialist"
+        dates = "2022 - Actual"
+        company = "Evertec PlacetoPay"
+        details = "Diseño del nuevo modelo relacional para comercios, planes y suscripciones."
+
+        [[params.experience.list]]
         title = "Desarrollador Full Stack"
-        dates = "2018 - Actual"
+        dates = "2018 - 2022"
         company = "Soft-G.Net"
         details = "Programador full stack de modulos para la gestión de transporte de compañias norteamericanas."
         
@@ -206,6 +212,10 @@ publishDir = "docs"
 
     [params.projects]
         enable = true
+
+        [[params.projects.list]]
+        title = "SGDC"
+        tagline = "Software de Gestion para ISP"
 
         [[params.projects.list]]
         title = "My Tienda"
