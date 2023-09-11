@@ -92,7 +92,7 @@ publishDir = "docs"
         [[params.education.list]]
         degree = "Ing. De Sistemas y Computación"
         university = "Corporación Universitaria Latinoamericana"
-        dates = "2018 - Actual"
+        dates = "2018 - 2023"
 
 
 
@@ -128,7 +128,7 @@ publishDir = "docs"
         level = "Nativo"
         [[params.languages.list]]
         name = "Ingles"
-        level = "Tecnico"
+        level = "Técnico"
 
 
 
@@ -171,34 +171,34 @@ publishDir = "docs"
         [[params.experience.list]]
         title = "Full Stack Development Sr Specialist"
         dates = "2022 - Actual"
-        company = "Evertec PlacetoPay"
+        company = "Evertec - PlacetoPay"
         details = "Diseño del nuevo modelo relacional para comercios, planes y suscripciones."
 
         [[params.experience.list]]
         title = "Desarrollador Full Stack"
         dates = "2018 - 2022"
         company = "Soft-G.Net"
-        details = "Programador full stack de modulos para la gestión de transporte de compañias norteamericanas."
+        details = "Programador full stack de módulos para la gestión de transporte de compañías norteamericanas."
         
 
         [[params.experience.list]]
         title = "Desarrollador - CEO"
         dates = "2015 - 2018"
         company = "Grafico App"
-        details = "Programación de módulos administrativos utilizando PHP, Bootstrap3, CSS3, MySQL y App Moviles en Xamarin y JQuery Mobile."
+        details = "Programación de módulos administrativos utilizando PHP, Bootstrap3, CSS3, MySQL y App Móviles en Xamarin y JQuery Mobile."
         
 
         [[params.experience.list]]
         title = "Desarrollador"
         dates = "2014 - 2015"
         company = "Explain System & Solutions"
-        details = "Programación de módulos administrativos utilizando PHP, Bootstrap3, CSS3, MySQL y App Moviles en JQuery Mobile."
+        details = "Programación de módulos administrativos utilizando PHP, Bootstrap3, CSS3, MySQL y App Móviles en JQuery Mobile."
 
         [[params.experience.list]]
         title = "Desarrollador Desktop"
         dates = "2003 - 2004"
         company = "Facon Construcciones"
-        details = "Desarrollo de un aplicativo para la gestión de informes médicos en Borlan Denphi 5."
+        details = "Desarrollo de un aplicativo para la gestión de informes médicos en Borland Delphi 5."
 
 
 
@@ -215,7 +215,7 @@ publishDir = "docs"
 
         [[params.projects.list]]
         title = "SGDC"
-        tagline = "Software de Gestion para ISP"
+        tagline = "Software de Gestión para ISP"
 
         [[params.projects.list]]
         title = "My Tienda"
@@ -227,7 +227,7 @@ publishDir = "docs"
 
         [[params.projects.list]]
         title = "TAScheduler"
-        tagline = "Aplicativo para la gestión de ruta de busces públicos en Miami."
+        tagline = "Aplicativo para la gestión de ruta de buses públicos en Miami."
 
         [[params.projects.list]]
         title = "Trip2"
